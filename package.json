@@ -1,0 +1,37 @@
+{
+  "name": "hedera-certification",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arupdasINT/hedera-certification.git"
+  },
+  "scripts": {
+    "accounts:create-account": "node scripts/createAccount/createAccount.js",
+    "token:create-token": "node scripts/tokenService/createToken.js",
+    "token:mintAndTransferNFT": "node scripts/tokenService/mintToken.js",
+    "smart-contract:deploy-to-hedera": "node scripts/smartContract/deploySmartContract.js",
+    "smart-contract:transact": "node scripts/smartContract/executeSmartContract.js",
+    "transaction:create-schedule": "node scripts/scheduleTransaction/scheduleTransaction.js",
+    "transaction:submit-signature": "node scripts/scheduleTransaction/submitSignature.js",
+    "transaction:delete-schedule": "node scripts/scheduleTransaction/deleteScheduleTransaction.js",
+    "multi-signature:allowance": "node scripts/multiSignature/allowance.js"
+  },
+  "author": "souvik.mallick@indusnet.co.in",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.25.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "fs": "0.0.1-security",
+    "joi": "^17.9.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
+  }
+}

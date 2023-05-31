@@ -1,0 +1,17 @@
+Schedule Transaction Output
+--------------------------------------
+The schedule ID is 0.0.13726717
+Base64 of schedule Id MC4wLjEzNzI2NzE3
+The scheduled transaction ID is 0.0.4314269@1685528952.265445407?scheduled
+
+Delete Schedule Transaction Output
+--------------------------------------
+The schedule ID is 0.0.13726717
+The transaction consensus status is  Status { _code: 22 }
+
+Submit Signature Transaction Output
+---------------------------------------
+Payer Account Balance 91226732223 tinybar
+Receiver Account Balance 100000000000 tinybar
+
+StatusError: receipt for transaction 0.0.13726303@1685529218.620022905 contained error status SCHEDULE_ALREADY_DELETED

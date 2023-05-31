@@ -1,0 +1,26 @@
+The new token ID is 0.0.13726864
+
+
+Created NFT 0.0.13726864 with serial: 1
+--> After Creation
+User balance: 1 units of token ID 0.0.13726864
+Created NFT 0.0.13726864 with serial: 2
+--> After Creation
+User balance: 2 units of token ID 0.0.13726864
+Token association with the users account: SUCCESS
+--> After Association
+Treasury balance: 2 NFTs of ID 0.0.13726864
+Buyer's balance: 0 NFTs of ID 0.0.13726864
+NFT transfer from Treasury to Buyer: SUCCESS
+--> After Transfer
+Treasury balance: 1 NFTs of ID 0.0.13726864
+Buyer's balance: 1 NFTs of ID 0.0.13726864
+Created NFT 0.0.13726864 with serial: 3
+--> After Creation
+User balance: 2 units of token ID 0.0.13726864
+Created NFT 0.0.13726864 with serial: 4
+--> After Creation
+User balance: 3 units of token ID 0.0.13726864
+Created NFT 0.0.13726864 with serial: 5
+--> After Creation
+User balance: 4 units of token ID 0.0.13726864
